@@ -1,11 +1,12 @@
-body{
-    /*background-color: blue;*/
-}
 
 nav{
+    text-align: center;
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
-    /* position: absolute; */
+    width: 100%;
+    top: 5px;
+    background-color: pink;
 }
 
 #page-title{
@@ -14,16 +15,66 @@ nav{
     font-size: 36px;
 }
 
+.checks{
+    display: flex;
+    justify-content: center;
+}
+#checks-title{
+    text-align: center;
+    font-size: 16px;
+}
+
+.check-practice {
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
 .header{
     font-size: 26px;
+}
+
+
+.grid-container{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.col-head{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.first-col{
+/* display: flex;
+justify-content: center; */
+}
+
+.second-col{
+    /* background-color: blueviolet; */
+
 }
 
 .first-img{
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 20px;
 }
 
 .second-img{
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 20px;
+
+
 }
