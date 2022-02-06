@@ -1,34 +1,83 @@
+body{
+    font-family: 'Unna', serif;
+    background-color: #fffab6;
+}
 
 nav{
+    font-family: 'Unna', serif;
     text-align: center;
     position: fixed;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    top: 5px;
-    background-color: pink;
+    top: 15px;
+    /* background-color: pink; */
+}
+
+#nav-button{
+font-family: 'Unna', serif;
+background-color: 	#ffc5d9 ;
+color: black;
+border-radius: 20px;
+padding: 10px;
+border: 3px;
+border-style: dotted;
+border-color: 	magenta;
+}
+
+#nav-button:hover{
+    background-color: magenta;
+    border-color: #ffc5d9;
+    transition: background-color .5s;
+    color:white;
 }
 
 #page-title{
     display: flex;
     justify-content: center;
     font-size: 36px;
+    padding-top: 50px;
 }
 
 .checks{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    background-color: #a1daff;
+    padding-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 3px dotted;
+    border-color: #3eacff;
+
 }
 #checks-title{
     text-align: center;
+    font-weight: bold;
     font-size: 16px;
 }
 
 .check-practice {
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
     /* background-color: blueviolet; */
 }
+
+.info{
+    background-color: #a6fd9c;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 3px dotted;
+    border-color: #55d27e;
+}
+
 
 .header{
     font-size: 26px;
@@ -39,7 +88,7 @@ nav{
     /* background-color: red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
+    column-gap: 15px;
 }
 
 .col-head{
@@ -50,31 +99,139 @@ nav{
 }
 
 .first-col{
-/* display: flex;
-justify-content: center; */
+background-color: #a1daff;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+margin-left: 10%;
+margin-bottom: 20px;
+margin-top: 20px;
+border: 3px dotted;
+border-color: #3eacff;
+
 }
 
 .second-col{
-    /* background-color: blueviolet; */
+    background-color: #a1daff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 3px dotted;
+    border-color: #3eacff;
+
 
 }
 
 .first-img{
-    width: 300px;
-    height: 300px;
+    width: 70%;
+    height: 70%;
     display: flex;
-    justify-content: center;
     padding: 8px;
     border-radius: 20px;
 }
 
 .second-img{
-    width: 300px;
-    height: 300px;
+    width: 70%;
+    height: 70%;
     display: flex;
     justify-content: center;
     padding: 8px;
     border-radius: 20px;
+}
 
+#more{
+    padding-bottom: 50px;
+    background-color: #ffbdbd;
+    border: 3px dotted;
+    border-color: magenta;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+#more-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#more-cont{
+    text-align: center;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* padding: 100px; */
+}
+
+#form-name{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Unna', serif;
+    font-size: 15px;
+
+}
+
+#form-email{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Unna', serif;
+    font-size: 15px;
+
+}
+
+#form-problem{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 50px;  
+    padding-left: 10px;
+    font-family: 'Unna', serif;
+    font-size: 15px;
+  
+}
+
+#submit{
+    width: 100px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20%;
+    background-color:#ffc5d9;
+    border: 3px dotted;
+    border-color: magenta;
+    font-family: 'Unna', serif;
+    font-size: 15px;
+    /* box-shadow: 1px 1px 1px 1px grey; */
+}
+
+#submit:hover{
+    background-color: magenta;
+    border-color: #ffc5d9;
+    transition: background-color .5s;
+    color: white;
+    font-family: 'Unna', serif;
 
 }

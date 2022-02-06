@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <title>Style Practice</title>
-    </header>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+            </style>
+    </head>
     <body>
+        
         <nav>
-            <a href="#why-header">Why Should You Practice?</a>
-            <a href="#who-header">Who Should Practice?</a>
-            <a href="#how-header">How Long Should You Practice?</a>
+            <button id="nav-button">
+                <a href="#why-header">Why Should You Practice?</a>
+            </button>
+            <button id="nav-button">
+                <a href="#who-header">Who Should Practice?</a>
+            </button>
+            <button id="nav-button">
+                <a href="#how-header">How Long Should You Practice?</a>
+            </button>
         </nav>
 
         <h1 id = "page-title">Practice Makes Progress</h1>
@@ -17,7 +27,7 @@
 
         <div class = "main">
             
-            <!-- <div class = "checks"> -->
+            <div class = "checks">
                 <div id = "checks-title">
                 <p>Are you trying to decide if you need more practice?</p>
             </div>
@@ -32,11 +42,11 @@
                 </label> 
 
             </div>
-         <!-- </div>    -->
+         </div>   
 
 
-
-            <h2 class= "header" id = "why-header">Why Should You Practice?</h2>
+            <div class="info">
+                <h2 class= "header" id = "why-header">Why Should You Practice?</h2>
                 <p id = "why-exp">This is why. There are so many reasons why. There are thirteen reasons why. This is my thirteenth  reason. If you ever want to amount to anything, you have to practice. If you do not practice, you do not fail. If you do not fail, you do not learn. Our greatest fear is not that we are inadequate, it is that we are powerful beyond measure. *mic drop*</p>
 
             <h3 class= "header" id = "who-header">Who Should Practice?</h3>
@@ -50,6 +60,8 @@
 
             <h4 class= "header" id = "how-header">How Long Should You Practice?</h4>
                 <p id = "how-exp">This is how long. As long as it takes. As long as you can stand. As long as it's still sinking in. The science is still out on how long the average human can concentrate. Or maybe they're not. Eiher way, I'm sure they're skewing the results to align with the best interests of capitalism. Basically, just practice. Thirty minutes of practice everyday is better than three hours of practice once  a week.</p>
+
+            </div>
 
 
                 <div class =  "grid-container">
@@ -80,17 +92,19 @@
 
                 </div>
 
-                    <form id = "more">
+                    <div id = "more">
                         <p id = "more-title">Still Not Sure If You Need More Practice?</p>
                         <p id = "more-cont">Fill out the form below and we will help you figure it out!</p>
 
-                        <input  id = "form-name" type = "text" placeholder = "your name">
-                        <input id = "form-email" type = "text" placeholder = "your email">
-                        <input id = "form-problem" type = "text" placeholder = "your problem">
+                        <form class = "form">
+                            <input  id = "form-name" type = "text" placeholder = "your name">
+                            <input id = "form-email" type = "text" placeholder = "your email">
+                            <input id = "form-problem" type = "text" placeholder = "your problem">
+    
+                            <button id = "submit">Submit</button>
+                            </form>
 
-                        <button id = "submit">Submit</button>
-
-                    </form>
+                    </div>
 
 
         </div>
